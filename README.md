@@ -87,15 +87,19 @@ The fine-tuning results are that the Grounding DINO model did not improve. Fine-
 Below some example training curves are shown when only training the last two linear layers in the Grounding DINO transformer decoder block. Using a learning rate of 1e-5. 
 
 Accuracy
-![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/acc.png)
+
+<img src="https://github.com/Linuxable/capstone/blob/main/example-results/acc.png" width=50% height=50%>
 
 Bounding box MSE
+
 ![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/MSE.png)
 
 Amount of not found classes
+
 ![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/clsnotfound.png)
 
 Loss
+
 ![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/loss.png)
 
 
