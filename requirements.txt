@@ -16,3 +16,8 @@ uvicorn
 python-multipart
 PIL
 google
+tqdm
+re
+bs4
+onemetric
+shutil
