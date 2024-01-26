@@ -74,7 +74,7 @@ Tune the amount of epochs and learning rate to your liking.
 
 ## Project Requirements
 
-The requirements are Google Colab and the python libraries mentioned in the requirements.txt file. If any library is not found by Colab add the line '!pip install x', whith x being the missing library.
+The requirements are Google Colab and the python libraries mentioned in the requirements.txt file. If any library is not found by Colab add the line '!pip install x', with x being the missing library.
 
 ## Results
 
@@ -101,6 +101,12 @@ Amount of not found classes
 Loss
 
 <img src="https://github.com/Linuxable/capstone/blob/main/example-results/loss.png" width=50% height=50%>
+
+## Discussion
+There are several possible reasons that may be of influence on the model not improving during fine-tuning.
+1. Grouding DINO is very complicated and it is unclear which layers should be frozen during fine-tuning. And currently there is no documentation on fine-tuning Grounding DINO.
+2. The model is already optimized and it can be difficult to improve it further.
+3. Our implemented loss is not exactly the same as the loss of the original authors of Grounding DINO used during training.
 
 ## Future Recommendations
 For future work in this project several things can be done.
