@@ -78,10 +78,25 @@ The requirements are Google Colab and the python libraries mentioned in the requ
 
 ## Results
 
-This is one of the results of the evaluation of the untrained Grounding DINO model:
+Below is one of the manu evaluation plots. It shows the detection and classifying accuracy of the not fine-tuned Grounding DINO model on the Ot & Sien ++ dataset.
 
 ![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/detclass_acc.png)
 
+The fine-tuning results are that the Grounding DINO model did not improve. Fine-tuning the model on Ot & Sien ++ made the model perform worse, looking at the classifying accuracy, bounding box MSE and the amount of classes the model did not find in an image.
+
+Below some example training curves are shown when only training the last two linear layers in the Grounding DINO transformer decoder block. Using a learning rate of 1e-5. 
+
+Accuracy
+![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/acc.png)
+
+Bounding box MSE
+![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/MSE.png)
+
+Amount of not found classes
+![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/clsnotfound.png)
+
+Loss
+![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/loss.png)
 
 
 ## Future Recommendations
