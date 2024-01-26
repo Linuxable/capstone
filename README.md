@@ -36,7 +36,7 @@ This notebook is a demo to run the GroundingDINO model on a single image. To use
 
 This notebook performs an exploratory data analysis on the Ot & Sien ++ dataset. It counts all the classes in the dataset and checks which classes do not occur. This is done separately for the train, validation and test set since the Ot & Sien ++ dataset is already split into these sets. Lastly nine images are plotted to show what type of images are in the dataset
 
-To use the notebook, under 'Define all classes in dataset and dataset to analyse' in the code block the 'data_directory'variable must be changed to where your dataset is located.
+To use the notebook, under 'Define all classes in dataset and dataset to analyse' in the code block the 'data_directory' variable must be changed to where your dataset is located.
 
 ### Evaluation
 #### Evaluating Grounding DINO
@@ -78,7 +78,7 @@ The requirements are Google Colab and the python libraries mentioned in the requ
 
 ## Results
 
-Below is one of the manu evaluation plots. It shows the detection and classifying accuracy of the not fine-tuned Grounding DINO model on the Ot & Sien ++ dataset.
+Below is one of the evaluation plots. It shows the detection and classifying accuracy of the not fine-tuned Grounding DINO model on the Ot & Sien ++ dataset on the most frequent classes.
 
 ![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/detclass_acc.png)
 
