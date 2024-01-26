@@ -34,7 +34,7 @@ This notebook is a demo to run the GroundingDINO model on a single image. To use
 
 ### EDA of Ot & Sien ++
 
-This notebook performs an exploratory data analysis on the Ot & Sien ++ dataset. It counts all the classes in the dataset and checks which classes do not occur. This is done separately for the train, validation and test set since the Ot & Sien ++ dataset is already split into these sets. Lastly 9 images a plotted to show what type of images are in the dataset
+This notebook performs an exploratory data analysis on the Ot & Sien ++ dataset. It counts all the classes in the dataset and checks which classes do not occur. This is done separately for the train, validation and test set since the Ot & Sien ++ dataset is already split into these sets. Lastly nine images are plotted to show what type of images are in the dataset
 
 To use the notebook, under 'Define all classes in dataset and dataset to analyse' in the code block the 'data_directory'variable must be changed to where your dataset is located.
 
