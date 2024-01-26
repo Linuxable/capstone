@@ -78,6 +78,9 @@ The requirements are Google Colab and the python libraries mentioned in the requ
 
 ## Results
 
+This is one of the results of the evaluation of the untrained Grounding DINO model:
+
+![alt text]([http://url/to/img.png](https://github.com/Linuxable/capstone/blob/main/example-results/detclass_acc.png))
 
 
 ## Future Recommendations
