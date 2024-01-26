@@ -2,3 +2,17 @@ numpy
 matplotlib
 pandas
 opencv-python
+torch
+torchsummary
+torchvision
+os
+locale
+bisect
+random
+supervision
+fastapi
+kaleido
+uvicorn
+python-multipart
+PIL
+google
