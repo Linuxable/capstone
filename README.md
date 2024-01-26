@@ -92,16 +92,15 @@ Accuracy
 
 Bounding box MSE
 
-![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/MSE.png)
+<img src="https://github.com/Linuxable/capstone/blob/main/example-results/MSE.png" width=50% height=50%>
 
 Amount of not found classes
 
-![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/clsnotfound.png)
+<img src="https://github.com/Linuxable/capstone/blob/main/example-results/clsnotfound.png" width=50% height=50%>
 
 Loss
 
-![Alt text](https://github.com/Linuxable/capstone/blob/main/example-results/loss.png)
-
+<img src="https://github.com/Linuxable/capstone/blob/main/example-results/loss.png" width=50% height=50%>
 
 ## Future Recommendations
 For future work in this project several things can be done.
